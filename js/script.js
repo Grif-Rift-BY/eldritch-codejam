@@ -25,7 +25,7 @@ const ancientsData = [
   {
     id: 'azathoth',
     name: 'azathoth',
-    cardFace: '../assets/Ancients/Azathoth.png',
+    cardFace: '../assets/Ancients/Azathoth.jpg',
     firstStage: {
       greenCards: 1,
       brownCards: 2,
@@ -45,7 +45,7 @@ const ancientsData = [
   {
     id: 'cthulhu',
     name: 'cthulhu',
-    cardFace: '../assets/Ancients/Cthulthu.png',
+    cardFace: '../assets/Ancients/Cthulthu.jpg',
     firstStage: {
       greenCards: 0,
       brownCards: 2,
@@ -65,7 +65,7 @@ const ancientsData = [
   {
     id: 'iogSothoth',
     name: 'iogSothoth',
-    cardFace: '../assets/Ancients/IogSothoth.png',
+    cardFace: '../assets/Ancients/IogSothoth.jpg',
     firstStage: {
       greenCards: 0,
       brownCards: 2,
@@ -85,7 +85,7 @@ const ancientsData = [
   {
     id: 'shubNiggurath',
     name: 'shubNiggurath',
-    cardFace: '../assets/Ancients/ShubNiggurath.png',
+    cardFace: '../assets/Ancients/ShubNiggurath.jpg',
     firstStage: {
       greenCards: 1,
       brownCards: 2,
@@ -107,73 +107,73 @@ const ancientsData = [
 const blueCardsData = [
   {
     id: 'blue1',
-    cardFace: '../assets/MythicCards/blue/blue1.png',
+    cardFace: '../assets/MythicCards/blue/blue1.jpg',
     difficulty: 'hard',
     color:'blue'
   },
   {
     id: 'blue2',
-    cardFace: '../assets/MythicCards/blue/blue2.png',
+    cardFace: '../assets/MythicCards/blue/blue2.jpg',
     difficulty: 'hard',
     color:'blue'
   },
   {
     id: 'blue3',
-    cardFace: '../assets/MythicCards/blue/blue3.png',
+    cardFace: '../assets/MythicCards/blue/blue3.jpg',
     difficulty: 'easy',
     color:'blue'
   },
   {
     id: 'blue4',
-    cardFace: '../assets/MythicCards/blue/blue4.png',
+    cardFace: '../assets/MythicCards/blue/blue4.jpg',
     difficulty: 'easy',
     color:'blue'
   },
   {
     id: 'blue5',
-    cardFace: '../assets/MythicCards/blue/blue5.png',
+    cardFace: '../assets/MythicCards/blue/blue5.jpg',
     difficulty: 'easy',
     color:'blue'
   },
   {
     id: 'blue6',
-    cardFace: '../assets/MythicCards/blue/blue6.png',
+    cardFace: '../assets/MythicCards/blue/blue6.jpg',
     difficulty: 'hard',
     color:'blue'
   },
   {
     id: 'blue7',
-    cardFace: '../assets/MythicCards/blue/blue7.png',
+    cardFace: '../assets/MythicCards/blue/blue7.jpg',
     difficulty: 'normal',
     color:'blue'
   },
   {
     id: 'blue8',
-    cardFace: '../assets/MythicCards/blue/blue8.png',
+    cardFace: '../assets/MythicCards/blue/blue8.jpg',
     difficulty: 'hard',
     color:'blue'
   },
   {
     id: 'blue9',
-    cardFace: '../assets/MythicCards/blue/blue9.png',
+    cardFace: '../assets/MythicCards/blue/blue9.jpg',
     difficulty: 'normal',
     color:'blue'
   },
   {
     id: 'blue10',
-    cardFace: '../assets/MythicCards/blue/blue10.png',
+    cardFace: '../assets/MythicCards/blue/blue10.jpg',
     difficulty: 'easy',
     color:'blue'
   },
   {
     id: 'blue11',
-    cardFace: '../assets/MythicCards/blue/blue11.png',
+    cardFace: '../assets/MythicCards/blue/blue11.jpg',
     difficulty: 'normal',
     color:'blue'
   },
   {
     id: 'blue12',
-    cardFace: '../assets/MythicCards/blue/blue12.png',
+    cardFace: '../assets/MythicCards/blue/blue12.jpg',
     difficulty: 'normal',
     color:'blue'
   },
@@ -183,127 +183,127 @@ const blueCardsData = [
 const brownCardsData = [
   {
     id: 'brown1',
-    cardFace: '../assets/MythicCards/blue/brown1.png',
+    cardFace: '../assets/MythicCards/brown/brown1.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown2',
-    cardFace: '../assets/MythicCards/blue/brown2.png',
+    cardFace: '../assets/MythicCards/brown/brown2.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown3',
-    cardFace: '../assets/MythicCards/blue/brown3.png',
+    cardFace: '../assets/MythicCards/brown/brown3.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown4',
-    cardFace: '../assets/MythicCards/blue/brown4.png',
+    cardFace: '../assets/MythicCards/brown/brown4.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown5',
-    cardFace: '../assets/MythicCards/blue/brown5.png',
+    cardFace: '../assets/MythicCards/brown/brown5.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown6',
-    cardFace: '../assets/MythicCards/blue/brown6.png',
+    cardFace: '../assets/MythicCards/brown/brown6.jpg',
     difficulty: 'hard',
     color:'brown'
   },
   {
     id: 'brown7',
-    cardFace: '../assets/MythicCards/blue/brown7.png',
+    cardFace: '../assets/MythicCards/brown/brown7.jpg',
     difficulty: 'hard',
     color:'brown'
   },
   {
     id: 'brown8',
-    cardFace: '../assets/MythicCards/blue/brown8.png',
+    cardFace: '../assets/MythicCards/brown/brown8.jpg',
     difficulty: 'hard',
     color:'brown'
   },
   {
     id: 'brown9',
-    cardFace: '../assets/MythicCards/blue/brown9.png',
+    cardFace: '../assets/MythicCards/brown/brown9.jpg',
     difficulty: 'hard',
     color:'brown'
   },
   {
     id: 'brown10',
-    cardFace: '../assets/MythicCards/blue/brown9.png',
+    cardFace: '../assets/MythicCards/brown/brown10.jpg',
     difficulty: 'hard',
     color:'brown'
   },
   {
     id: 'brown11',
-    cardFace: '../assets/MythicCards/blue/brown9.png',
+    cardFace: '../assets/MythicCards/brown/brown11.jpg',
     difficulty: 'easy',
     color:'brown'
   },
   {
     id: 'brown12',
-    cardFace: '../assets/MythicCards/blue/brown9.png',
+    cardFace: '../assets/MythicCards/brown/brown12.jpg',
     difficulty: 'easy',
     color:'brown'
   },
   {
     id: 'brown13',
-    cardFace: '../assets/MythicCards/blue/brown9.png',
+    cardFace: '../assets/MythicCards/brown/brown13.jpg',
     difficulty: 'easy',
     color:'brown'
   },
   {
     id: 'brown14',
-    cardFace: '../assets/MythicCards/blue/brown9.png',
+    cardFace: '../assets/MythicCards/brown/brown14.jpg',
     difficulty: 'easy',
     color:'brown'
   },
   {
     id: 'brown15',
-    cardFace: '../assets/MythicCards/blue/brown9.png',
+    cardFace: '../assets/MythicCards/brown/brown15.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown16',
-    cardFace: '../assets/MythicCards/blue/brown10.png',
+    cardFace: '../assets/MythicCards/brown/brown16.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown17',
-    cardFace: '../assets/MythicCards/blue/brown11.png',
+    cardFace: '../assets/MythicCards/brown/brown17.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown18',
-    cardFace: '../assets/MythicCards/blue/brown12.png',
+    cardFace: '../assets/MythicCards/brown/brown18.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown19',
-    cardFace: '../assets/MythicCards/blue/brown13.png',
+    cardFace: '../assets/MythicCards/brown/brown19.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown20',
-    cardFace: '../assets/MythicCards/blue/brown14.png',
+    cardFace: '../assets/MythicCards/brown/brown20.jpg',
     difficulty: 'normal',
     color:'brown'
   },
   {
     id: 'brown21',
-    cardFace: '../assets/MythicCards/blue/brown15.png',
+    cardFace: '../assets/MythicCards/brown/brown21.jpg',
     difficulty: 'easy',
     color:'brown'
   },
@@ -312,109 +312,109 @@ const brownCardsData = [
 const greenCardsData = [
   {
     id: 'green1',
-    cardFace: '../assets/MythicCards/green/green1.png',
+    cardFace: '../assets/MythicCards/green/green1.jpg',
     difficulty: 'easy',
     color:'green'
   },
   {
     id: 'green2',
-    cardFace: '../assets/MythicCards/green/green2.png',
+    cardFace: '../assets/MythicCards/green/green2.jpg',
     difficulty: 'hard',
     color:'green'
   },
   {
     id: 'green3',
-    cardFace: '../assets/MythicCards/green/green3.png',
+    cardFace: '../assets/MythicCards/green/green3.jpg',
     difficulty: 'hard',
     color:'green'
   },
   {
     id: 'green4',
-    cardFace: '../assets/MythicCards/green/green4.png',
+    cardFace: '../assets/MythicCards/green/green4.jpg',
     difficulty: 'hard',
     color:'green'
   },
   {
     id: 'green5',
-    cardFace: '../assets/MythicCards/green/green5.png',
+    cardFace: '../assets/MythicCards/green/green5.jpg',
     difficulty: 'hard',
     color:'green'
   },
   {
     id: 'green6',
-    cardFace: '../assets/MythicCards/green/green6.png',
+    cardFace: '../assets/MythicCards/green/green6.jpg',
     difficulty: 'hard',
     color:'green'
   },
   {
     id: 'green7',
-    cardFace: '../assets/MythicCards/green/green7.png',
+    cardFace: '../assets/MythicCards/green/green7.jpg',
     difficulty: 'normal',
     color:'green'
   },
   {
     id: 'green8',
-    cardFace: '../assets/MythicCards/green/green8.png',
+    cardFace: '../assets/MythicCards/green/green8.jpg',
     difficulty: 'normal',
     color:'green'
   },
   {
     id: 'green9',
-    cardFace: '../assets/MythicCards/green/green9.png',
+    cardFace: '../assets/MythicCards/green/green9.jpg',
     difficulty: 'normal',
     color:'green'
   },
   {
     id: 'green10',
-    cardFace: '../assets/MythicCards/green/green10.png',
+    cardFace: '../assets/MythicCards/green/green10.jpg',
     difficulty: 'normal',
     color:'green'
   },
   {
     id: 'green11',
-    cardFace: '../assets/MythicCards/green/green11.png',
+    cardFace: '../assets/MythicCards/green/green11.jpg',
     difficulty: 'normal',
     color:'green'
   },
   {
     id: 'green12',
-    cardFace: '../assets/MythicCards/green/green12.png',
+    cardFace: '../assets/MythicCards/green/green12.jpg',
     difficulty: 'easy',
     color:'green'
   },
   {
     id: 'green13',
-    cardFace: '../assets/MythicCards/green/green13.png',
+    cardFace: '../assets/MythicCards/green/green13.jpg',
     difficulty: 'normal',
     color:'green'
   },
   {
     id: 'green14',
-    cardFace: '../assets/MythicCards/green/green14.png',
+    cardFace: '../assets/MythicCards/green/green14.jpg',
     difficulty: 'normal',
     color:'green'
   },
   {
     id: 'green15',
-    cardFace: '../assets/MythicCards/green/green15.png',
+    cardFace: '../assets/MythicCards/green/green15.jpg',
     difficulty: 'normal',
     color:'green'
   },
   {
     id: 'green16',
-    cardFace: '../assets/MythicCards/green/green16.png',
+    cardFace: '../assets/MythicCards/green/green16.jpg',
     difficulty: 'easy',
     color:'green'
   },
   {
     id: 'green17',
-    cardFace: '../assets/MythicCards/green/green17.png',
+    cardFace: '../assets/MythicCards/green/green17.jpg',
     difficulty: 'easy',
     color:'green'
   },
   {
     id: 'green18',
-    cardFace: '../assets/MythicCards/green/green18.png',
+    cardFace: '../assets/MythicCards/green/green18.jpg',
     difficulty: 'easy',
     color:'green'
   },
@@ -424,7 +424,14 @@ let currentAncient;
 let mythsDeckCardsQuantity;
 $( '.ancients__person' ).on( 'click', getAncientCardSheme );
 function getAncientCardSheme() {
-  // console.log( '=============== START getAncientCardSheme ===============' );
+  // console.log( 'START getAncientCardSheme ===============' );
+  $( '.stack' ).html( '0' );
+  $( '.ancients__person' ).removeClass( 'ancients__person--active' );
+  $( '.button' ).removeClass( 'button--active' );
+  $( '.stack-deck' ).removeClass( 'stack-deck--active' ); 
+  $( '.buttons').addClass( 'buttons--active' );
+  $( this ).addClass( 'ancients__person--active' );
+  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
   currentAncient = ancientsData[ $( this ).index() ];
   // console.log( 'currentAncient =', currentAncient.name );
   let numberOfGreenCards = sumOfOneColorCards( 'greenCards' );
@@ -443,34 +450,26 @@ function getAncientCardSheme() {
   }
   // console.log( 'cardsScheme' );
   // console.table( cardsScheme );
-  // console.log( '=============== FINISH getAncientCardSheme ===============' );
+  // console.log( 'FINISH getAncientCardSheme ===============' );
   // console.log( '' );
   // console.log( '' );
 };
 
+let difficultyLevel;
 $( '.button' ).on( 'click', dealDeck );
 function dealDeck() {
-  // console.log( '=============== START dealDeck ===============' );  
-  let difficultyLevel = difficulties[ $( this ).index() ].id;
+  // console.log( 'START dealDeck ===============' );
+  $( '.button' ).removeClass( 'button--active' );
+  $( this ).addClass( 'button--active' );
+  $( '.stack-deck' ).addClass( 'stack-deck--active' );  
+  difficultyLevel = difficulties[ $( this ).index() - 1 ].id;
   // console.log( 'difficultyLevel =', difficultyLevel );
-  switch ( difficultyLevel ) {
-    case 'easy':
-    getEasyLevelDeck();
-      break;
-    case 'light':
-    getLightLevelDeck();
-      break;
-    case 'normal':
-    getNormalLevelDeck();
-      break;
-    case 'high':
-    getHighLevelDeck();
-      break;
-    case 'hard':
-    getHardLevelDeck();
-      break;
-  }
-  // console.log( '=============== FINISH dealDeck ===============' );
+  if ( difficultyLevel == 'easy' ) { getEasyLevelDeck(); outputAllStagesDecksOnScreen();  CARD_FACE.addEventListener( 'click', showMythsDeck );};
+  if ( difficultyLevel == 'light' ) { getLightLevelDeck(); outputAllStagesDecksOnScreen(); CARD_FACE.addEventListener( 'click', showMythsDeck ); };
+  if ( difficultyLevel == 'normal' ) { getNormalLevelDeck(); outputAllStagesDecksOnScreen();  CARD_FACE.addEventListener( 'click', showMythsDeck );};
+  if ( difficultyLevel == 'high' ) { getHighLevelDeck(); outputAllStagesDecksOnScreen(); CARD_FACE.addEventListener( 'click', showMythsDeck ); };
+  if ( difficultyLevel == 'hard' ) { getHardLevelDeck(); outputAllStagesDecksOnScreen(); CARD_FACE.addEventListener( 'click', showMythsDeck ); };
+  // console.log( 'FINISH dealDeck ===============' );
   // console.log( '' );
   // console.log( '' );
 }
@@ -482,7 +481,8 @@ let greenCardsDeck = [];
 let brownCardsDeck = [];
 let blueCardsDeck = [];
 function getEasyLevelDeck() {
-  console.log( '=============== START getEasyLevelDeck ===============' );
+  console.log( 'START getEasyLevelDeck ===============' );
+  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
   greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -493,21 +493,21 @@ function getEasyLevelDeck() {
     return finalDeck;
   }
   breakDeckIntoStages( greenCardsDeck, brownCardsDeck, blueCardsDeck );
-  console.log( 'Easy deck');
+  // console.log( 'Easy deck');
   console.table( firstStage );
   console.table( secondStage );
   console.table( thirdStage );
   // console.table( greenCardsDeck );
   // console.table( brownCardsDeck );
   // console.table( blueCardsDeck );
-  outputDeckOnScreen( firstStage, secondStage, thirdStage );
-  console.log( '=============== FINISH getEasyLevelDeck ===============' );
+  console.log( 'FINISH getEasyLevelDeck ===============' );
   console.log( '' );
   console.log( '' );
 }
 
 function getLightLevelDeck(){
-  console.log( '=============== START getLightLevelDeck ===============' );
+  console.log( 'START getLightLevelDeck ===============' );
+  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
   let greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   let brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   let blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -517,21 +517,21 @@ function getLightLevelDeck(){
     return finalDeck;
   }
   breakDeckIntoStages( greenCardsDeck, brownCardsDeck, blueCardsDeck );
-  console.log( 'Light deck' );
+  // console.log( 'Light deck' );
   console.table( firstStage );
   console.table( secondStage );
   console.table( thirdStage );
   // console.table( greenCardsLight );
   // console.table( brownCardsLight );
   // console.table( blueCardsLight );
-  outputDeckOnScreen( firstStage, secondStage, thirdStage );
-  console.log( '=============== FINISH getLightLevelDeck ===============' );
+  console.log( 'FINISH getLightLevelDeck ===============' );
   console.log( '' );
   console.log( '' );
 }
 
 function getNormalLevelDeck() {
-  console.log( '=============== START getNormalLevelDeck ===============' );
+  console.log( 'START getNormalLevelDeck ===============' );
+  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
   let greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   let brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   let blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -541,21 +541,21 @@ function getNormalLevelDeck() {
     return finalDeck;
   }
   breakDeckIntoStages( greenCardsDeck, brownCardsDeck, blueCardsDeck );
-  console.log( 'Normal deck' );
+  // console.log( 'Normal deck' );
   console.table( firstStage );
   console.table( secondStage );
   console.table( thirdStage );
   // console.table( greenCardsNormal );
   // console.table( brownCardsNormal );
   // console.table( blueCardsNormal );
-  outputDeckOnScreen( firstStage, secondStage, thirdStage );
-  console.log( '=============== FINISH getNormalLevelDeck ===============' );
+  console.log( 'FINISH getNormalLevelDeck ===============' );
   console.log( '' );
   console.log( '' );
 };
 
 function getHighLevelDeck(){
-  console.log( '=============== START getHighLevelDeck ===============' );
+  console.log( 'START getHighLevelDeck ===============' );
+  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
   let greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   let brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   let blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -565,21 +565,21 @@ function getHighLevelDeck(){
     return finalDeck;
   }
   breakDeckIntoStages( greenCardsDeck, brownCardsDeck, blueCardsDeck );
-  console.log( 'High deck' );
+  // console.log( 'High deck' );
   console.table( firstStage );
   console.table( secondStage );
   console.table( thirdStage );
   // console.table( greenCardsHigh );
   // console.table( brownCardsHigh );
   // console.table( blueCardsHigh );
-  outputDeckOnScreen( firstStage, secondStage, thirdStage );
-  console.log( '=============== FINISH getHighLevelDeck ===============' );
+  console.log( 'FINISH getHighLevelDeck ===============' );
   console.log( '' );
   console.log( '' );
 }
 
 function getHardLevelDeck() {
-  console.log( '=============== START getHardLevelDeck ===============' );
+  console.log( 'START getHardLevelDeck ===============' );
+  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
   let greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   let brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   let blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -590,15 +590,14 @@ function getHardLevelDeck() {
     return finalDeck;
   }
   breakDeckIntoStages( greenCardsDeck, brownCardsDeck, blueCardsDeck );
-  console.log( 'Hard deck' );
+  // console.log( 'Hard deck' );
   console.table( firstStage );
   console.table( secondStage );
   console.table( thirdStage );
   // console.table( greenCardsHard );
   // console.table( brownCardsHard );
   // console.table( blueCardsHard );
-  outputDeckOnScreen( firstStage, secondStage, thirdStage );
-  console.log( '=============== FINISH getHardLevelDeck ===============' );
+  console.log( 'FINISH getHardLevelDeck ===============' );
   console.log( '' );
   console.log( '' );
 }
@@ -635,8 +634,71 @@ function shuffleCards( deck ) {
   return deck.sort( () => { return ( Math.random() - 0.5) } );
 }
 
-function outputDeckOnScreen( firstStage, secondStage, thirdStage ) {
-  for( let i = 0; i < firstStage.length; i++ ) {
-    console.log( firstStage[i]['color'] );
+function outputAllStagesDecksOnScreen() {
+  outputStageDeckOnScreen( firstStage, 'FIRST_STAGE', );
+  outputStageDeckOnScreen( secondStage, 'SECOND_STAGE', );
+  outputStageDeckOnScreen( thirdStage, 'THIRD_STAGE', );
+}
+
+function outputStageDeckOnScreen( stage, output ) {
+  // console.log( 'START outputStageDeckOnScreen ===============' );
+  let counterGreen = 0;
+  let counterBrown = 0;
+  let counterBlue = 0;
+  let element = document.getElementById( output );
+  element.innerHTML = '';
+  for( let i = 0; i < stage.length; i++ ) {
+    if ( stage[i]['color'] == 'green' ) counterGreen++;
+    if ( stage[i]['color'] == 'brown' ) counterBrown++;
+    if ( stage[i]['color'] == 'blue' ) counterBlue++;
   }
+  element.innerHTML = `<div class="stack-one stack">${ counterGreen }</div>
+                        <div class="stack-two stack">${ counterBrown }</div>
+                        <div class="stack-three stack">${ counterBlue }</div>`;
+  // console.log( counterGreen );
+  // console.log( counterBrown );
+  // console.log( counterBlue );
+  // console.log( 'FINISH outputStageDeckOnScreen ===============' );
+  // console.log( '' );
+  // console.log( '' );
+}
+
+let cardFaceElement = document.getElementById( 'CARD_FACE' );
+function showMythsDeck() {
+  // console.log( 'START showMythsDeck ===============' );
+  let clickCounter = 1;
+  if ( thirdStage.length == 0 && firstStage.length == 0 && secondStage.length == 0) {
+    $( '.button' ).removeClass( 'button--active' );
+    $( '.stack-deck' ).removeClass( 'stack-deck--active' );
+    cardFaceElement.style.backgroundImage = `url( ${ '../assets/mythicCardBackground.jpg' } )`;
+    outputAllStagesDecksOnScreen();
+  }
+  if ( firstStage.length > 0 ) {
+    let currentCard = firstStage[ firstStage.length - 1 ];
+    cardFaceElement.style.backgroundImage = `url( ${ currentCard.cardFace } )`;
+    firstStage.pop(); outputStageDeckOnScreen( firstStage, 'FIRST_STAGE', );
+    clickCounter = 0;
+    // console.table( firstStage ); 
+  }
+  if ( secondStage.length > 0 && firstStage.length == 0 && clickCounter == 1 ) {
+    let currentCard = secondStage[ secondStage.length - 1 ];
+    cardFaceElement.style.backgroundImage = `url( ${ currentCard.cardFace } )`;
+    secondStage.pop(); outputStageDeckOnScreen( secondStage, 'SECOND_STAGE', );
+    clickCounter = 0;
+    // console.table( secondStage );
+  }
+  if ( thirdStage.length > 0 && secondStage.length == 0 && clickCounter == 1 ) {
+    let currentCard = thirdStage[ thirdStage.length - 1 ];
+    cardFaceElement.style.backgroundImage = `url( ${ currentCard.cardFace } )`;
+    thirdStage.pop(); outputStageDeckOnScreen( thirdStage, 'THIRD_STAGE', );
+    clickCounter = 0;
+    // console.table( thirdStage );
+  }
+  
+  // if ( firstStage.length != 0 ) { firstStage.pop(); outputAllStagesDecksOnScreen(); console.table( firstStage ); }
+  // if ( firstStage.length == 0 ) { secondStage.pop(); outputAllStagesDecksOnScreen(); console.table( secondStage ); }
+  // if ( secondStage.length == 0 ) { thirdStage.pop(); outputAllStagesDecksOnScreen(); console.table( thirdStage ); }
+  // console.log( 'FINISH showMythsDeck ===============' );
+  // console.log( '' );
+  // console.log( '' );
 }

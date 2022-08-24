@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&display=swap" rel="stylesheet">
   <title>CodeJam</title>
   <script src="js/jquery-3.6.0.min.js"></script>
 </head>
@@ -12,6 +15,7 @@
 
   <div class="wrapper">
     <div class="main">
+
       <div class="ancients">
         <div class="ancients__person azathoth">
           
@@ -26,37 +30,51 @@
           
         </div>
       </div>
+
       <div class="buttons">
-        <button class="button">Низкая</button>
-        <button class="button">Лёгкая</button>
-        <button class="button">Средняя</button>
-        <button class="button">Высокая</button>
-        <button class="button">Трудная</button>
+        <p class="title buttons__title ">Deal deck</p>
+        <button class="button">Very easy</button>
+        <button class="button">Easy</button>
+        <button class="button">Normal</button>
+        <button class="button">Hard</button>
+        <button class="button">Very hard</button>
       </div>
-      <div class="stack-deck" id="DECK_OUTPUT">
-        <div class="stage-one stage" id="FIRST_STAGE">
-          <h3 class="title">Первая стадия</h3>
-          <div class="stack-one stack"></div>
-          <div class="stack-two stack"></div>
-          <div class="stack-three stack"></div>
+
+      <div class="stack-deck" id="DECK-OUTPUT">
+        
+        <div class="stack-deck__block">
+          <h3 class="title">Stage one</h3>
+          <div class="stage-one stage" id="FIRST_STAGE">
+            <div class="stack-one stack">0</div>
+            <div class="stack-two stack">0</div>
+            <div class="stack-three stack">0</div>
+          </div>
         </div>
-        <div class="stage-two stage" id="SECOND_STAGE">
-          <h3 class="title">Вторая стадия</h3>
-          <div class="stack-one stack"></div>
-          <div class="stack-two stack"></div>
-          <div class="stack-three stack"></div>
+
+        <div class="stack-deck__block">
+          <h3 class="title">Stage two</h3>
+          <div class="stage-two stage" id="SECOND_STAGE">
+            <div class="stack-one stack">0</div>
+            <div class="stack-two stack">0</div>
+            <div class="stack-three stack">0</div>
+          </div>
         </div>
-        <div class="stage-three stage" id="THIRD_STAGE">
-          <h3 class="title">Третья стадия</h3>
-          <div class="stack-one stack"></div>
-          <div class="stack-two stack"></div>
-          <div class="stack-three stack"></div>
-        </div>    
+       
+        <div class="stack-deck__block">
+          <h3 class="title">Stage three</h3>
+          <div class="stage-three stage" id="THIRD_STAGE">
+            <div class="stack-one stack">0</div>
+            <div class="stack-two stack">0</div>
+            <div class="stack-three stack">0</div>
+          </div>
+        </div> 
+
+        <div class="output">
+          <!-- <div class="card-shirt card"></div> -->
+          <div class="card-face card" id="CARD_FACE"></div>
+        </div>   
       </div>
-      <div class="output">
-        <div class="card-shirt card"></div>
-        <div class="card-face card"></div>
-      </div>
+      
     </div>
   </div>
   <script type="module" src="js/script.js"></script>
