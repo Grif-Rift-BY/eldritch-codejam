@@ -431,7 +431,7 @@ function getAncientCardSheme() {
   $( '.stack-deck' ).removeClass( 'stack-deck--active' ); 
   $( '.buttons').addClass( 'buttons--active' );
   $( this ).addClass( 'ancients__person--active' );
-  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
+  $( '.card-face').css( { 'background-image': 'url(../assets/mythicCardBackground.jpg)' } );
   currentAncient = ancientsData[ $( this ).index() ];
   // console.log( 'currentAncient =', currentAncient.name );
   let numberOfGreenCards = sumOfOneColorCards( 'greenCards' );
@@ -482,7 +482,7 @@ let brownCardsDeck = [];
 let blueCardsDeck = [];
 function getEasyLevelDeck() {
   console.log( 'START getEasyLevelDeck ===============' );
-  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
+  $( '.card-face').css( { 'background-image': 'url(../assets/mythicCardBackground.jpg)' } );
   greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -507,7 +507,7 @@ function getEasyLevelDeck() {
 
 function getLightLevelDeck(){
   console.log( 'START getLightLevelDeck ===============' );
-  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
+  $( '.card-face').css( { 'background-image': 'url(../assets/mythicCardBackground.jpg)' } );
   let greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   let brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   let blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -531,7 +531,7 @@ function getLightLevelDeck(){
 
 function getNormalLevelDeck() {
   console.log( 'START getNormalLevelDeck ===============' );
-  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
+  $( '.card-face').css( { 'background-image': 'url(../assets/mythicCardBackground.jpg)' } );
   let greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   let brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   let blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -555,7 +555,7 @@ function getNormalLevelDeck() {
 
 function getHighLevelDeck(){
   console.log( 'START getHighLevelDeck ===============' );
-  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
+  $( '.card-face').css( { 'background-image': 'url(../assets/mythicCardBackground.jpg)' } );
   let greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   let brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   let blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
@@ -579,7 +579,7 @@ function getHighLevelDeck(){
 
 function getHardLevelDeck() {
   console.log( 'START getHardLevelDeck ===============' );
-  $( '.card-face').css( { 'background-image': 'url("../assets/mythicCardBackground.jpg")' } );
+  $( '.card-face').css( { 'background-image': 'url(../assets/mythicCardBackground.jpg)' } );
   let greenCardsDeck = formDeck( greenCardsData, 'greenCards' );
   let brownCardsDeck = formDeck( brownCardsData, 'brownCards' );
   let blueCardsDeck = formDeck( blueCardsData, 'blueCards' );
