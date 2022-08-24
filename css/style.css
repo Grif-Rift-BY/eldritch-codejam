@@ -19,7 +19,7 @@ img{ vertical-align: top; }
 h1, h2, h3, h4, h5, h6{ font-size: inherit; font-weight: 400; }
 /* --------------------------------------------------------- */
 /* ---------------Выделение каждого блока--------------------*/
-/* *{ outline: 1px dashed red; outline-offset: -1px; } */
+*{ outline: 1px dashed red; outline-offset: -1px; }
 /* ========================================================= */
 
 .main {
@@ -56,11 +56,9 @@ h1, h2, h3, h4, h5, h6{ font-size: inherit; font-weight: 400; }
   background-image: url("../assets/Ancients/Cthulthu.png");
 }
 
-
 .iogSothoth {
   background-image: url("../assets/Ancients/IogSothoth.png");
 }
-
 
 .shubNiggurath {
   background-image: url("../assets/Ancients/ShubNiggurath.png");
@@ -118,7 +116,6 @@ h1, h2, h3, h4, h5, h6{ font-size: inherit; font-weight: 400; }
 
 .title {
   width: 200px;
-  margin: auto;
   color: rgb(255, 255, 255);
   text-align: center;
 }
