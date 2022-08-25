@@ -148,7 +148,7 @@ const blueCardsData = [
     color:'blue'
   },
   {
-    id: 'blue8',
+    id: 'blue8',git 
     cardFace: '../assets/MythicCards/blue/blue8.jpg',
     difficulty: 'hard',
     color:'blue'

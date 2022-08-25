@@ -220,6 +220,6 @@ h1, h2, h3, h4, h5, h6{ font-size: inherit; font-weight: 400; }
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("../assets/mythicCardBackground.jpg");
+  background-image: url(../assets/mythicCardBackground.jpg);
   transition: all 0.5s ease;
 }
